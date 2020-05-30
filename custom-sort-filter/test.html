@@ -1,0 +1,10 @@
+<tr *ngFor="let item of items | sort: '-updateDate'">
+  <td>
+      {{item.value}}
+  </td>
+  <td>
+      {{item.updateDate}}
+  </td>
+</tr>
+
+<!-- '-' sign with '-updateDate' in above html code will sort data set in Descending manner. -->
